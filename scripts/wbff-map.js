@@ -35,7 +35,7 @@ function initMap() {
     // WBFF region location
     // Australia
     const australia = { lat: -35.26444463463442, lng: 149.12968437315226 };
-    const australiaContent = buildContentStr('WBFF Treasurer & Director - Australia/New Zealand Region', 'Mr. Frank Kelly', 'wbffaustralianewzealand', 'https://static.wixstatic.com/media/82b989_ff8289ab7a3b4c58ae11a40c701b2ec0~mv2.jpg/v1/fill/w_391,h_448,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Frank%20Kelly.jpg');
+    const australiaContent = buildContentStr('WBFF Treasurer & Director - Australia/New Zealand Region', 'wbffaustralianewzealand', 'Mr. Frank Kelly', 'https://static.wixstatic.com/media/82b989_ff8289ab7a3b4c58ae11a40c701b2ec0~mv2.jpg/v1/fill/w_391,h_448,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Frank%20Kelly.jpg');
     coordList.push(australia);
     contentList.push(australiaContent);
     labelList.push('Australia Region');
@@ -70,7 +70,7 @@ function initMap() {
 
     // Africa
     const africa = { lat: -26.19704648122439, lng: 28.0469122012619 };
-    const africaContent = buildContentStr("WBFF Secretary & Director - Africa Region", 'wbffboard', 'Mr. Jonathan Cain', 'https://static.wixstatic.com/media/82b989_d19e7d70d1f34260b7121a79d81e21a3~mv2.jpg/v1/fill/w_385,h_440,al_c,lg_1,q_80,enc_auto/Jonathan%20photo.jpg');
+    const africaContent = buildContentStr("WBFF Secretary & Director - Africa Region", 'wbffafrica', 'Mr. Jonathan Cain', 'https://static.wixstatic.com/media/82b989_d19e7d70d1f34260b7121a79d81e21a3~mv2.jpg/v1/fill/w_385,h_440,al_c,lg_1,q_80,enc_auto/Jonathan%20photo.jpg');
     coordList.push(africa);
     contentList.push(africaContent);
     labelList.push("Africa Region");
