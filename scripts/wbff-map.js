@@ -12,7 +12,7 @@ function buildContentStr(header, path, imgLink) {
         '<h3>Go to page</h3>' + 
         '</div>' + 
         '<div id="profileImage">' + 
-        '<img src="' + imgLink + '" alt="image" width="500" height="500">' +
+        '<img src="' + imgLink + '" alt="image" width="300" height="300">' +
         '</div>' + 
         '</div>' +
         '</div>';
@@ -194,7 +194,9 @@ function initMap() {
     // Init google map center
     const map = new google.maps.Map(document.getElementById("map"), {
         zoom: 2,
-        center: australia,
+        center: australia,        
+        mapTypeId: google.maps.MapTypeId.HYBRID,
+        labels: true
     });
 
     // Create marker, infowindow, and marker listener
@@ -206,7 +208,7 @@ function initMap() {
         const marker = new google.maps.Marker({
             position: coordList[idx],
             map,
-            title: labelList[idx],
+            title: labelList[idx]
         });
 
         marker.addListener("click", () => {
