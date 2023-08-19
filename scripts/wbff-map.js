@@ -27,7 +27,7 @@ function buildDirectorContentStr(header, imgLink) {
         '</div>' +
         '<h1 id="firstHeading" class="firstHeading">' + header + '</h1>' +
         '<div id="bodyContent">' +
-        '<img src="' + imgLink + '" alt="image" width="500" height="500">' +
+        '<img src="' + imgLink + '" alt="image" width="300" height="300">' +
         '</div>' +
         '</div>';
 
