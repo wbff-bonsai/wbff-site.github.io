@@ -11,14 +11,14 @@ function buildContentStr(positionRegion, pageLink, chairmanName, imgLink) {
             '<h3>' + chairmanName + '</h3>' +
         '</div>' +
 
-        '<div id="profileImage">' +
-            '<img src="' + imgLink + '" alt="image">' +
-        '</div>' +
-
         '<div id="pageLink">' +
             '<a href="' + url + '"target="_blank" rel="noopener noreferrer">' +
                 '<h3>Go to page</h3>' +
             '</a>' +
+        '</div>' +
+
+        '<div id="profileImage">' +
+            '<img src="' + imgLink + '" alt="image">' +
         '</div>' +
 
     '</div>' +
