@@ -16,7 +16,7 @@ function buildContentStr(positionRegion, pageLink, chairmanName, imgLink) {
         '</div>' +
 
         '<div id="pageLink">' +
-            '<a href="' + url + '">' +
+            '<a href="' + url + '"target="_blank" rel="noopener noreferrer">' +
                 '<h3>Go to page</h3>' +
             '</a>' +
         '</div>' +
