@@ -1,0 +1,26 @@
+{
+    "name": "World Bonsai Friendship Federation", 
+    "short_name": "WBFF", 
+    "start_url": "https://www.wbffbonsai.org/", 
+    "background_color": "#00A950", 
+    "theme_color": "#00A950", 
+    "display": "standalone", 
+    "icons": [
+        {
+            "src": "img/WBFF_logo_192x192.png", 
+            "sizes": "192x192", 
+            "type": "image/png"
+        }, 
+        {
+            "src": "img/WBFF_logo_512x512.png", 
+            "sizes": "512x512", 
+            "type": "image/png"
+        },
+        {
+            "src": "img/WBFF_logo_maskable.png", 
+            "sizes": "320x320", 
+            "type": "image/png",
+            "purpose": "maskable"
+        }
+    ]
+}
